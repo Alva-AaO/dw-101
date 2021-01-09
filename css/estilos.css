@@ -1,0 +1,100 @@
+/*ALL 
+*{
+    margin: 0rem;
+}
+
+/*
+p a {
+    text-decoration: none; color: inherit; text-transform: lowercase;
+}
+section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1,5rem;
+    background-color:#a8dadc ;
+}
+strong {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 2rem; 
+    text-align: left; 
+    color: #a8dadc;
+    background-color: #f1faee;
+}
+
+h2 {
+    font-size: 1,5rem; 
+    text-align: center; 
+    color: #a8dadc;
+    background-color: #f1faee;
+}
+h3 {
+    font-size: 1,2rem; 
+    text-align: center; 
+    color: #1d3557;
+    background-color: #f1faee;
+}
+strong {
+    font-weight: 900;
+}
+
+/* BARRA HEADER
+h1 {
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+}
+h1.indicador {
+    margin: 25px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: blanchedalmond;
+    font-family: 'Abril Fatface', cursive;
+}
+.jumbotron {
+    background-color: black;
+}
+.jumbotron-fluid {
+    background-color: black;
+}
+/*@media and (max-width: 576px) and (orientation: portrait) { img.logo
+    {
+    height: 85%;
+    width: 85%;
+    }
+}
+/* INDEX */
+
+/* RECETAS */
+
+/* CARRITO */
+/*div#banner-electro {
+    background-image: url(../img/carrito/background-electro-dos.png);
+}
+
+.card {
+    align-content: center;
+    align-items: center;
+}
+/* BLOG */
+
+/* CONTACTO */
+
+/* GRACIAS */
+
+/* QUERYS 
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { }

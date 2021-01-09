@@ -1,0 +1,6 @@
+@each $articulo in electro, utensilios, libros {
+    .#{$articulo}-banner {
+        background-image: 
+        url("../img/carrito/banners/#{$articulo}.jpg");
+    }
+}

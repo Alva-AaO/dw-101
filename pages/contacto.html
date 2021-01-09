@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Horario de contacto de lunes a viernes de 9 a 18 hs (-5GMT). Dejanos tu mensaje y e breve te responderemos.">
+        <meta name="keywords" content="CONTACTO, DOSSIER, GOURMET, MENSAJES, REDES, SOCIALES">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="../css/main.css">
+        <title>
+            Dossier Gourmet - Contacto
+        </title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="../index.html">Dossier Gourmet</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="./carrito.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>        
+                    </ul>
+                </div>  
+            </nav> 
+          <div class="jumbotron jumbotron-fluid">
+                <div class="container">  
+                    <div class="row">
+                        <a href="../index.html"><img src="../img/logo-dg-bnw.jpg" class="rounded logo" alt="logo"></a>
+                        <h1 class="indicador">Contacto</h1>
+                    </div>
+                </div>
+          </div>
+        </header>
+        <main>
+            <!--Formulario de contacto-->
+            <form>
+                <div class="form-group">
+                    <label>Nombre y apellido </label>
+                    <input type="text" name="name-form-contacto" id="id-name-form" required=required placeholder="Juan Perez" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="id_mail_form">Dirección de correo electrónico</label>
+                  <input type="email" name="email_form_contacto" class="form-control" id="id_mail_form" required=required placeholder="juanperez@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="exp-cocina-form">Experiencia en la cocina</label>
+                  <select class="form-control" id="exp-cocina-form">
+                    <option value="nivel_1">Principiante</option>
+                    <option value="nivel_2">Amateur</option>
+                    <option value="nivel_3">Experimentado</option>
+                    <option value="nivel_4">Profesional</option>
+                    <option value="nivel_5">Experto</option>
+                    <option value="nivel_dios" disabled=disabled>El creador de este sitio</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="id-opinion">¡Dejanos tu opinión!</label>
+                  <textarea class="form-control" id="id-opinion" rows="5"></textarea>
+                </div>
+                <div>Acepta los terminos y condiciones
+                    <input type="checkbox" name="acepta" value="1" required=required >
+                </div>
+                <button type="reset" class="btn btn-outline-secondary">Limpiar formulario</button>
+                <button type="submit" class="btn btn-outline-primary">Enviar formulario</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2020 - Agustín Alvarez Ovando</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

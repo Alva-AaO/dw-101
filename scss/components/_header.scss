@@ -1,0 +1,19 @@
+.navbar-dark {
+    background-color: $true-black !important;
+}
+.bg-dark {
+    background-color: $true-black
+}
+.navbar-expand-md {
+    background-color: $true-black;
+}
+/* Fallo en poner el color de la navbar negro como para que se camufle dentro del header. Arreglar */
+
+header {
+    .jumbotron {
+        background-color: $true-black;
+    }
+    .jumbotron-fluid {
+        background-color: $true-black;
+    }
+}
